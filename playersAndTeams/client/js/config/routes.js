@@ -13,7 +13,7 @@ myAppModule.config(['$routeProvider','$locationProvider', function($routeProvide
         controller: 'associationsController'
       })
       .otherwise({
-        redirectTo: '/players'
+        redirectTo: '/'
       })
       $locationProvider.html5Mode({
         enabled: true,
